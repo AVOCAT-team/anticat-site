@@ -7,6 +7,7 @@
   <div class="bg">
     <div class="stars" />
   </div>
+  11
 </template>
 
 <style lang="scss">

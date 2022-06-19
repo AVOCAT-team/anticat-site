@@ -18,6 +18,6 @@ jobs:
       - name: Build
         run: npm run build
       - name: set up gh-pages workspace
-        run: cd dist && git init && git branch -M gh-pages && git remote add origin https://github.com/AVOCAT-team/anticat-site.git
+        run: cd dist && git init && git branch -m gh-pages && git remote add origin https://github.com/AVOCAT-team/anticat-site.git
       - name: deploying to gh-pages
         run: git add . && git commit -m "deploy" && git push origin gh-pages --force

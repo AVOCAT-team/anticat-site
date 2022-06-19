@@ -1,8 +1,7 @@
 <template>
-  <div class="w-screen h-screen mainBlock">
+  <div class="mainBlock">
     <headerVue />
     <mainVue />
-    <footer><footerVue /></footer>
   </div>
   <div class="bg">
     <div class="stars" />
@@ -57,10 +56,9 @@
 <script>
 import headerVue from "./components/header.vue";
 import mainVue from "./pages/main.vue";
-import footerVue from "./components/footer.vue";
 
 export default {
-  components: { headerVue, mainVue, footerVue },
+  components: { headerVue, mainVue },
   methods: {
     getRandomArbitrary(min, max) {
       console.log(Math.floor(Math.random() * (max - min) + min));

@@ -1,5 +1,7 @@
 <template>
-  <main class="flex flex-col items-center cursor-default">
+  <main
+    class="flex flex-col items-center cursor-default w-screen h-screen overflow-y-scroll"
+  >
     <div
       class="w-2/3 p-4 m-4 bg-ppurple-200 bg-opacity-70 rounded-lg animate__animated animate__fadeInLeftBig animate__delay-1s"
     >
@@ -46,7 +48,7 @@
     <div
       class="w-2/3 p-4 m-4 bg-ppurple-200 bg-opacity-70 rounded-lg animate__animated animate__fadeInLeft animate__delay-3s"
     >
-      <h1 class="font-bold text-lg text-center my-3">Кто мы такие?</h1>
+      <h1 class="font-bold text-lg text-center my-3">О нас</h1>
       Мы, AVOCAT-team - независимая команда разработчиков. Сейчас мы работаем
       над кроссплатформенным проектом и нам как никогда нужна поддержка. Вы
       можете поддержать нас,
@@ -61,11 +63,23 @@
       >, где публикуются актуальные новости по разработке, а также кое-какие
       эксклюзивы.
     </div>
+    <div class="py-28 w-full text-center">
+      AVOCAT© team, 2022. All rights reserved
+    </div>
   </main>
 </template>
 
-<script>
-export default {};
-</script>
-
-<style />
+<style lang="scss">
+main {
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border-radius: 25px;
+  }
+}
+</style>

@@ -7,7 +7,6 @@
   <div class="bg">
     <div class="stars" />
   </div>
-  hi world
 </template>
 
 <style lang="scss">

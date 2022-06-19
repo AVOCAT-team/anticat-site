@@ -1,4 +1,4 @@
-# Anticat website
+# https://avocat-team.github.io/anticat-site/
 
 For launch website locally, install nodejs >= 14
 

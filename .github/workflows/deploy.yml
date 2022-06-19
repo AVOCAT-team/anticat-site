@@ -9,7 +9,7 @@ jobs:
         with:
           node-version: '14'
       - name: Npm building
-        run: npm run build
+        run: npm install && npm run build
       - run: cd dist
       - name: set up gh-pages workspace
         run: git init && git branch -M gh-pages && git remote add origin https://github.com/AVOCAT-team/anticat-site.git 

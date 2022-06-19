@@ -7,7 +7,6 @@
   <div class="bg">
     <div class="stars" />
   </div>
-  11
 </template>
 
 <style lang="scss">
@@ -45,7 +44,6 @@
   height: 1px;
   width: 1px;
   z-index: 1;
-
   border-radius: 50%;
   box-shadow: -24vw -44vh 2px 2px #fff, 38vw -4vh 0px 0px #fff,
     -20vw -48vh 1px 2px #fff, -39vw 38vh 3px 1px #fff, -42vw -11vh 0px 3px #fff,
